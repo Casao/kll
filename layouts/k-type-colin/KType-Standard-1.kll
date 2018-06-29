@@ -1,0 +1,49 @@
+Variant = "standard";
+Generator = "NONE";
+Base = "Base";
+Date = "2017-10-13";
+KLL = 0.5;
+Author = "jbondeson (Jeremy Bondeson) 2017";
+Version = "0.2";
+Name = "KType";
+Layout = "Standard";
+
+U"ESC" : flashMode();
+U"F1" : None;
+U"F2" : None;
+U"F3" : None;
+U"F5" : ledControl( 5, 255 );
+U"F6" : animation_control( 0 );
+U"F7" : animation_control( 1 );
+U"F8" : animation_control( 4 );
+U"PAUSE" : CONS"PAUSE";
+U"MINUS" : ledControl( 0, 15 );
+U"EQUALS" : ledControl( 1, 15 );
+U"INSERT" : CONS"PAUSEPLAY";
+U"HOME" : CONS"STOP";
+U"PAGEUP" : CONS"VOLUMEUP";
+U"I" : U"UP";
+U"DELETE" : CONS"SCANPREVIOUSTRACK";
+U"END" : CONS"SCANNEXTTRACK";
+U"PAGEDOWN" : CONS"VOLUMEDOWN";
+U"J" : U"LEFT";
+U"K" : U"DOWN";
+U"L" : U"RIGHT";
+
+U"F1" :+ A[miami_wave](start);
+U"F1" :+ A[basic](stop);
+U"F1" :+ A[rainbow_wave](stop);
+U"F2" :+ A[rainbow_wave](start);
+U"F2" :+ A[basic](stop);
+U"F2" :+ A[miami_wave](stop);
+U"F3" :+ A[basic](start);
+U"F3" :+ A[miami_wave](stop);
+U"F3" :+ A[rainbow_wave](stop);
+
+### tmux command key
+U"B" : U"LCTRL" + U"B";
+U"BACKSLASH" : U"LCTRL" + U"\";
+
+U"CAPSLOCK" : U"LCTRL";
+;
+

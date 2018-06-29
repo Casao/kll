@@ -1,0 +1,20 @@
+Variant = "standard";
+Generator = "NONE";
+Base = "Base";
+Date = "2017-10-13";
+KLL = 0.5;
+Author = "jbondeson (Jeremy Bondeson) 2017";
+Version = "0.2";
+Name = "KType";
+Layout = "Standard";
+
+### Make mine a Macintosh
+
+U"LGUI" : U"LALT";
+U"LALT" : U"LGUI";
+U"RALT" : U"RGUI";
+U"RGUI" : U"RALT";
+
+U"SCROLLLOCK" : layerLock(2), A[mac_mode](stop);
+
+;

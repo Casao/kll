@@ -1,0 +1,15 @@
+Variant = "standard";
+Generator = "NONE";
+Base = "Base";
+Date = "2017-10-13";
+KLL = 0.5;
+Author = "jbondeson (Jeremy Bondeson) 2017";
+Version = "0.2";
+Name = "KType";
+Layout = "Standard";
+
+A[mac_mode] <= replace:basic;
+
+A[mac_mode, 1] <= P[15](255,0,0);
+
+;

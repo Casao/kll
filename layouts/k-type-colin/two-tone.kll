@@ -1,0 +1,29 @@
+Variant = "standard";
+Generator = "NONE";
+Base = "Base";
+Date = "2017-10-13";
+KLL = 0.5;
+Author = "jbondeson (Jeremy Bondeson) 2017";
+Version = "0.2";
+Name = "KType";
+Layout = "Standard";
+
+### Added by canned animation fingerprints_two_tone ###
+U["A"-"Z"] :+ A[fingerprints_two_tone](start);
+
+A[fingerprints_two_tone] <= framedelay:10, framestretch, loops:1, replace:basic;
+### AUTO GENERATED - DO NOT EDIT ###
+A[fingerprints_two_tone, 1] <= P[r:i,c:i](255,255,0);
+A[fingerprints_two_tone, 2] <= P[r:i,c:i](255,255,0);
+A[fingerprints_two_tone, 3] <= P[r:i,c:i](255,255,0);
+A[fingerprints_two_tone, 4] <= P[r:i,c:i](255,255,0);
+A[fingerprints_two_tone, 5] <= P[r:i,c:i](208,255,0);
+A[fingerprints_two_tone, 6] <= P[r:i,c:i](155,255,0);
+A[fingerprints_two_tone, 7] <= P[r:i,c:i](122,255,0);
+A[fingerprints_two_tone, 8] <= P[r:i,c:i](109,255,0);
+A[fingerprints_two_tone, 9] <= P[r:i,c:i](94,255,0);
+A[fingerprints_two_tone, 10] <= P[r:i,c:i](76,255,0);
+A[fingerprints_two_tone, 11] <= P[r:i,c:i](53,255,0);
+A[fingerprints_two_tone, 12] <= P[r:i,c:i](0,255,0);
+
+
