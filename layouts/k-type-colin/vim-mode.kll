@@ -8,13 +8,14 @@ Version = "0.2";
 Name = "KType";
 Layout = "Standard";
 
-### Make mine a Macintosh
+U"CAPSLOCK" : U"LCTRL";
+U"TAB" : U"ESC";
+U"CAPSLOCK" + U"TAB" : U"TAB";
 
-U"LGUI" : U"LALT";
-U"LALT" : U"LGUI";
-U"RALT" : U"RGUI";
-U"RGUI" : U"RALT";
+U"PRINTSCREEN" : layerLock(3), a[vim_mode](stop);
 
-U"SCROLLLOCK" : layerLock(2), A[mac_mode](stop);
+A[vim_mode] <= replace:basic;
+
+A[vim_mode, 1] <= P[14](255,0,0);
 
 ;

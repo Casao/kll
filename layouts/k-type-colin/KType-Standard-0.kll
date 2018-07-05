@@ -24,7 +24,6 @@ U"F9" : U"F9";
 U"F10" : U"F10";
 U"F11" : U"F11";
 U"F12" : U"F12";
-U"PRINTSCREEN" : U"PRINTSCREEN";
 U"PAUSE" : U"PAUSE";
 U"BACKTICK" : U"BACKTICK";
 U"1" : U"1";
@@ -104,5 +103,6 @@ U"RSHIFT" + U"LSHIFT" : U"CAPSLOCK";
 
 # Mac Mode, Engage
 U"SCROLLLOCK" : layerLock(2), A[mac_mode](start);
+U"PRINTSCREEN" : layerLock(3), A[vim_mode](start);
 
 ;
