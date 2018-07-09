@@ -17,8 +17,7 @@ U"RGUI" : U"RALT";
 
 U"SCROLLLOCK" : layerLock(2), A[mac_mode](stop);
 
-A[mac_mode] <= replace:basic;
-
+A[mac_mode] <= replace:all;
 A[mac_mode, 1] <= P[15](255,0,0);
 
 ;

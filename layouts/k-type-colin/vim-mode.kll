@@ -9,13 +9,11 @@ Name = "KType";
 Layout = "Standard";
 
 U"CAPSLOCK" : U"LCTRL";
-U"TAB" : U"ESC";
-U"CAPSLOCK" + U"TAB" : U"TAB";
+U"RCTRL" + U"TAB" : U"ESC";
 
-U"PRINTSCREEN" : layerLock(3), a[vim_mode](stop);
+U"PRINTSCREEN" : layerLock(3), A[vim_mode](stop);
 
-A[vim_mode] <= replace:basic;
-
-A[vim_mode, 1] <= P[14](255,0,0);
+A[vim_mode] <= replace:all;
+A[vim_mode, 1] <= P[14](0,255,255);
 
 ;
