@@ -9,7 +9,6 @@ Name = "KType";
 Layout = "Standard";
 
 U"CAPSLOCK" : U"LCTRL";
-U"RCTRL" + U"TAB" : U"ESC";
 
 U"PRINTSCREEN" : layerLock(3), A[vim_mode](stop);
 
